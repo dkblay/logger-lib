@@ -1,13 +1,23 @@
 {
   "name": "@dkblay/logger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just another logger",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pack": "npm  pack"
+    "pack": "npm  pack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkblay/logger-lib.git"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "David Blay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkblay/logger-lib/issues"
+  },
+  "homepage": "https://github.com/dkblay/logger-lib#readme"
 }
