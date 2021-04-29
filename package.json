@@ -2,9 +2,10 @@
   "name": "@dkblay/logger",
   "version": "1.0.0",
   "description": "Just another logger",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "pack": "npm  pack",
+    "build": "parcel build src/index.js -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dkblay/logger-lib/issues"
   },
-  "homepage": "https://github.com/dkblay/logger-lib#readme"
+  "homepage": "https://github.com/dkblay/logger-lib#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
