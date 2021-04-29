@@ -6,6 +6,7 @@
   "scripts": {
     "pack": "npm  pack",
     "build": "parcel build src/index.js -d dist",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
