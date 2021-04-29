@@ -1,6 +1,6 @@
 {
   "name": "@dkblay/logger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Just another logger",
   "main": "dist/index.js",
   "scripts": {
